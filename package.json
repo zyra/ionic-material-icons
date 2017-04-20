@@ -9,7 +9,7 @@
     "fonts"
   ],
   "scripts": {
-    "build": "rm -rf dist aot && ngc"
+    "build": "rm -rf dist aot && ngc && cp src/*.scss dist"
   },
   "repository": {
     "type": "git",

@@ -1,16 +1,13 @@
-// Fonts path relative to /www/build/main.css
-$fonts-path: '../assets/fonts/';
-
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url("#{$fonts-path}MaterialIcons-Regular.eot"); /* For IE6-8 */
-  src: local('#{$fonts-path}Material Icons'),
-  local('#{$fonts-path}MaterialIcons-Regular'),
-  url("#{$fonts-path}MaterialIcons-Regular.woff2") format('woff2'),
-  url("#{$fonts-path}MaterialIcons-Regular.woff") format('woff'),
-  url("#{$fonts-path}MaterialIcons-Regular.ttf") format('truetype');
+  src: url("#{$font-path}MaterialIcons-Regular.eot"); /* For IE6-8 */
+  src: local('#{$font-path}Material Icons'),
+  local('#{$font-path}MaterialIcons-Regular'),
+  url("#{$font-path}MaterialIcons-Regular.woff2") format('woff2'),
+  url("#{$font-path}MaterialIcons-Regular.woff") format('woff'),
+  url("#{$font-path}MaterialIcons-Regular.ttf") format('truetype');
 }
 
 ion-icon[md-name] {
