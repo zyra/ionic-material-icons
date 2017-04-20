@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Material Icons for Ionic 2 Apps",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "files": ["dist", "fonts"],
   "scripts": {
     "build": "rm -rf dist aot && ngc"
