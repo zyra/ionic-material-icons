@@ -1,6 +1,6 @@
 {
   "name": "ionic2-material-icons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Material Icons for Ionic 2 Apps",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
