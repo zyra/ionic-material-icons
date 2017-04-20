@@ -1,5 +1,5 @@
 # ionic2-material-icons
-Material Icons for Ionic 2 Apps
+[Material Icons](https://material.io/icons/) for Ionic 2 Apps
 
 ## Usage
 Use `md-name` instead of `name` when you want to use a material icon. Icon names can be found on this page: https://material.io/icons/. All names are a single lowercase words, example: `alarm add` would be `alarm_add`.
