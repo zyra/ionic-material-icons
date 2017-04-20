@@ -1,0 +1,28 @@
+{
+  "name": "ionic2-material-icons",
+  "version": "1.0.0",
+  "description": "Material Icons for Ionic 2 Apps",
+  "main": "dist/index.js",
+  "files": ["dist", "fonts"],
+  "scripts": {
+    "build": "rm -rf dist aot && ngc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyra/ionic2-material-icons.git"
+  },
+  "author": "Ibby Hadeed <ibby@zyra.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zyra/ionic2-material-icons/issues"
+  },
+  "homepage": "https://github.com/zyra/ionic2-material-icons#readme",
+  "devDependencies": {
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.1",
+    "typescript": "^2.2.2",
+    "zone.js": "^0.8.4"
+  }
+}

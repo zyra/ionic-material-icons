@@ -1,0 +1,40 @@
+// Fonts path relative to /www/build/main.css
+$fonts-path: '../assets/fonts/';
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("#{$fonts-path}MaterialIcons-Regular.eot"); /* For IE6-8 */
+  src: local('#{$fonts-path}Material Icons'),
+  local('#{$fonts-path}MaterialIcons-Regular'),
+  url("#{$fonts-path}MaterialIcons-Regular.woff2") format('woff2'),
+  url("#{$fonts-path}MaterialIcons-Regular.woff") format('woff'),
+  url("#{$fonts-path}MaterialIcons-Regular.ttf") format('truetype');
+}
+
+ion-icon[md-name] {
+  font-family: 'Material Icons';
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  width: auto;
+  height: auto;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+ion-icon[md-name][item-left], ion-icon[md-name][item-right] {
+  margin-right: 4px;
+}
