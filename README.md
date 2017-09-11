@@ -1,3 +1,7 @@
+[![npm](https://img.shields.io/npm/l/ionic2-material-icons.svg)](https://www.npmjs.com/package/ionic2-material-icons/)
+[![npm](https://img.shields.io/npm/dt/ionic2-material-icons.svg)](https://www.npmjs.com/package/ionic2-material-icons)
+[![npm](https://img.shields.io/npm/dm/ionic2-material-icons.svg)](https://www.npmjs.com/package/ionic2-material-icons)
+
 # ionic2-material-icons
 [Material Icons](https://material.io/icons/) for Ionic 2 Apps
 
