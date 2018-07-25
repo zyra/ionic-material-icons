@@ -22,11 +22,11 @@
   },
   "homepage": "https://github.com/zyra/ionic2-material-icons#readme",
   "devDependencies": {
-    "@angular/compiler": "^4.1.2",
-    "@angular/compiler-cli": "^4.1.2",
-    "@angular/core": "^4.1.2",
-    "rxjs": "^5.1.1",
-    "typescript": "^2.3.3",
-    "zone.js": "^0.8.11"
+    "@angular/compiler": "^5.2.11",
+    "@angular/compiler-cli": "^5.2.11",
+    "@angular/core": "^5.2.11",
+    "rxjs": "^5.5.11",
+    "typescript": "2.4.2",
+    "zone.js": "^0.8.26"
   }
 }
