@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/dm/ionic2-material-icons.svg)](https://www.npmjs.com/package/ionic2-material-icons)
 
 # ionic2-material-icons
-[Material Icons](https://material.io/icons/) for Ionic 2 Apps
+[Material Icons](https://material.io/icons/) for Ionic Apps
 
 ## Usage
 Use `md-name` instead of `name` when you want to use a material icon. Icon names can be found on this page: https://material.io/icons/. All names are a single lowercase words, example: `alarm add` would be `alarm_add`.
@@ -17,7 +17,7 @@ You can download this repo, then copy the font files and the directive into your
 
 ### Install module from NPM
 ```shell
-npm i --save ionic2-material-icons
+npm i ionic2-material-icons
 ```
 
 ### Import the module
