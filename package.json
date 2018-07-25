@@ -9,7 +9,8 @@
     "fonts"
   ],
   "scripts": {
-    "build": "rm -rf dist aot && ngc && cp src/*.scss dist"
+    "prebuild": "rimraf dist aot",
+    "build": "ngc && cp src/*.scss dist"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "@angular/compiler": "^5.2.11",
     "@angular/compiler-cli": "^5.2.11",
     "@angular/core": "^5.2.11",
+    "rimraf": "^2.6.2",
     "rxjs": "^5.5.11",
     "typescript": "2.4.2",
     "zone.js": "^0.8.26"
