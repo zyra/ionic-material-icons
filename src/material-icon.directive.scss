@@ -2,12 +2,12 @@
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url("#{$font-path}/MaterialIcons-Regular.eot"); /* For IE6-8 */
+  src: url('#{$font-path}/MaterialIcons-Regular.eot'); /* For IE6-8 */
   src: local('#{$font-path}/Material Icons'),
-  local('#{$font-path}/MaterialIcons-Regular'),
-  url("#{$font-path}/MaterialIcons-Regular.woff2") format('woff2'),
-  url("#{$font-path}/MaterialIcons-Regular.woff") format('woff'),
-  url("#{$font-path}/MaterialIcons-Regular.ttf") format('truetype');
+    local('#{$font-path}/MaterialIcons-Regular'),
+    url('#{$font-path}/MaterialIcons-Regular.woff2') format('woff2'),
+    url('#{$font-path}/MaterialIcons-Regular.woff') format('woff'),
+    url('#{$font-path}/MaterialIcons-Regular.ttf') format('truetype');
 }
 
 ion-icon[md-name] {
@@ -32,6 +32,7 @@ ion-icon[md-name] {
   font-feature-settings: 'liga';
 }
 
-ion-icon[md-name][item-left], ion-icon[md-name][item-right] {
+ion-icon[md-name][item-left],
+ion-icon[md-name][item-right] {
   margin-right: 4px;
 }

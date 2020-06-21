@@ -1,17 +1,13 @@
 import { Directive, ElementRef, Input } from '@angular/core';
 
 @Directive({
-    selector: 'ion-icon[md-name]'
+  selector: 'ion-icon[md-name]'
 })
 export class MaterialIcon {
+  @Input('md-name')
+  set mdName(val: string) {
+    this.el.nativeElement.innerHTML = val;
+  }
 
-    @Input('md-name')
-    set mdName(val: string) {
-        this.el.nativeElement.innerHTML = val;
-    }
-
-    constructor(
-        private el: ElementRef
-    ) {}
-
+  constructor(private el: ElementRef) {}
 }
