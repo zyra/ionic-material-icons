@@ -1,3 +1,6 @@
+> [!WARNING]
+> This package is deprecated and no longer maintained. Use Ionic's built-in [Ionicons](https://ionic.io/ionicons), custom SVG icons, or Google's [Material Symbols](https://developers.google.com/fonts/docs/material_symbols). The source remains available for historical reference, but no fixes or support will be provided.
+
 [![npm](https://img.shields.io/npm/l/ionic2-material-icons.svg)](https://www.npmjs.com/package/ionic2-material-icons/)
 [![npm](https://img.shields.io/npm/dt/ionic2-material-icons.svg)](https://www.npmjs.com/package/ionic2-material-icons)
 [![npm](https://img.shields.io/npm/dm/ionic2-material-icons.svg)](https://www.npmjs.com/package/ionic2-material-icons)
@@ -52,4 +55,3 @@ module.exports = {
   }
 };
 ```
-
