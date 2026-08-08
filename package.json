@@ -24,7 +24,7 @@
   "homepage": "https://github.com/zyra/ionic2-material-icons#readme",
   "devDependencies": {
     "@angular/compiler": "^5.2.11",
-    "@angular/compiler-cli": "^5.2.11",
+    "@angular/compiler-cli": "^15.2.7",
     "@angular/core": "^5.2.11",
     "rimraf": "^2.6.2",
     "rxjs": "^5.5.11",
